@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Glitch+Pop&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: inherit;
+  color: rgb(124, 121, 121);
+}
+body {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+.game {
+  width: 49%;
+  height: 50%;
+  padding: 10px 10px;
+  background-color: aliceblue;
+  margin-bottom: 0%;
+  margin-left: 25%;
+}
+.intro {
+  text-align: center;
+  color: rgb(124, 121, 121);
+  text-transform: uppercase;
+}
+.container {
+  width: 31%;
+  height: 54%;
+  padding: 1rem 1rem;
+  margin-left: 35%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 2px solid black;
+  width: 29%;
+  height: 74px;
+  /* padding: 1rem 1rem; */
+}
+.box {
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* padding: 1rem 1rem; */
+}
+.win {
+  color: rgb(242, 242, 76);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: 7%;
+  text-transform: uppercase;
+}
+.reset-button {
+  margin-left: 6%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+.btn {
+  padding: 0.4rem 1rem;
+  text-decoration: solid;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 16px;
+  background-color: rgb(240, 248, 255);
+  border: solid 2px black;
+  transition: all 0.3s;
+}
+.btn:hover,
+.btn:active {
+  background-color: rgb(58, 154, 237);
+}
